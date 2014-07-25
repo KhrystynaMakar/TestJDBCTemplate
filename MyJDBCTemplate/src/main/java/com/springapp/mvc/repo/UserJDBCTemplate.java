@@ -22,7 +22,7 @@ public class UserJDBCTemplate implements UserDAO {
     }
 
     @Override
-    public void create(String name, Role role) {
+    public void create(String name) {
         jdbcTemplateObject.update("insert into User (name) values (?)", name);
         System.out.println("Created Record Name = " + name);
     }

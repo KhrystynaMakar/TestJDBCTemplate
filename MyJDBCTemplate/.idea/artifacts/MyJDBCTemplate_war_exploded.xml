@@ -21,6 +21,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.30" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.4.1" />
         </element>
       </element>
     </root>
