@@ -27,7 +27,20 @@ public class UserController {
     }
 
     @RequestMapping(value = "", method = RequestMethod.POST, consumes = "application/json")
-    public void addTender(@RequestBody UserSaveDto userSaveDto) {
+    public @ResponseBody List<User> addTender(@RequestBody UserSaveDto userSaveDto) {
         userJDBCTemplate.create(userSaveDto.getName());
+        return userJDBCTemplate.getUsers();
+    }
+
+    @RequestMapping(value = "/{userId}", method = RequestMethod.PUT)
+    public @ResponseBody User update(@RequestBody UserSaveDto userSaveDto, @PathVariable("userId") Integer id) {
+        userJDBCTemplate.updateName(id, userSaveDto.getName());
+        return userJDBCTemplate.getUser(id);
+    }
+
+    @RequestMapping(value = "/{userId}", method = RequestMethod.DELETE)
+    public @ResponseBody List<User> deleteById(@PathVariable("userId") Integer id) {
+        userJDBCTemplate.deleteUser(id);
+        return userJDBCTemplate.getUsers();
     }
 }
