@@ -27,7 +27,7 @@ public class UserController {
     }
 
     @RequestMapping(value = "", method = RequestMethod.POST, consumes = "application/json")
-    public @ResponseBody List<User> addTender(@RequestBody UserSaveDto userSaveDto) {
+    public @ResponseBody List<User> addUser(@RequestBody UserSaveDto userSaveDto) {
         userJDBCTemplate.create(userSaveDto.getName());
         return userJDBCTemplate.getUsers();
     }
