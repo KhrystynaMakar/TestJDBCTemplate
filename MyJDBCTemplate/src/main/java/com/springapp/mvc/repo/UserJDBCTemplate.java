@@ -54,7 +54,7 @@ public class UserJDBCTemplate implements UserDAO {
 
     @Override
     public List<User> getUsers() {
-//        return jdbcTemplateObject.query(userRB.getString("findAll"), new UserMapper());
+//        return jdbcTemplateObject.query(userRB.getString."findAll"), new UserMapper());
         return jdbcTemplateObject.query(userRB.getString("findAll"), new UserMapper());
     }
 
