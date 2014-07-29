@@ -9,7 +9,7 @@
     <file path="/mvc-dispatcher-servlet.xml" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406285048678" ignored="false" />
     <file path="/UserDAO.java" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406200218906" ignored="false" />
     <file path="/UserMapper.java" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406184466076" ignored="false" />
-    <file path="/UserJDBCTemplate.java" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406554307311" ignored="false" />
+    <file path="/UserJDBCTemplate.java" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406624650652" ignored="false" />
     <file path="/MainDemo.java" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406217171709" ignored="false" />
     <file path="/beans.xml" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406216189617" ignored="false" />
     <file path="/Dummy.txt" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406269466498" ignored="false" />
@@ -17,6 +17,7 @@
     <file path="/userSaveDto.java" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406298083719" ignored="false" />
     <file path="/UserBundle.java" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406546933392" ignored="false" />
     <file path="/UserQueries.properties" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406547372096" ignored="false" />
+    <file path="/userQueries_en.properties" changelist="4f03046c-06cd-4214-a8c7-6ed63da179ab" time="1406624551617" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,19 +81,17 @@
       <file leaf-file-name="userQueries_en.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/userQueries_en.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+            <state line="4" column="42" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="43" selection-start="967" selection-end="967" vertical-scroll-proportion="0.4247039">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="20" column="58" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,7 +99,36 @@
       <file leaf-file-name="UserJDBCTemplate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repo/UserJDBCTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="193" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+            <state line="25" column="57" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NamedParameterJdbcTemplate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE-sources.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="11" selection-start="3442" selection-end="3442" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="32" selection-start="535" selection-end="535" vertical-scroll-proportion="0.31641287">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="6" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MainDemo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -131,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/repo/UserBundle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/repo/bundles/UserQueries.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/userQueries_en.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/repo/UserJDBCTemplate.java" />
       </list>
     </option>
@@ -279,48 +307,26 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyJDBCTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyJDBCTemplate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -383,19 +389,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -422,6 +415,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -577,7 +583,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -594,11 +599,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6878484" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13553895" sideWeight="0.6878484" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15688367" sideWeight="0.6878484" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3121516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -667,63 +673,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="156" selection-end="156" vertical-scroll-proportion="0.14424242" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="28" selection-start="133" selection-end="133" vertical-scroll-proportion="0.12686567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="681" selection-end="681" vertical-scroll-proportion="0.25888324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="535" selection-end="535" vertical-scroll-proportion="-0.20135364">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="297" selection-end="928" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="14" selection-start="297" selection-end="928" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="26" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.31641287">
           <folding />
         </state>
       </provider>
@@ -756,26 +734,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="58" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/userQueries_en.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+        <state line="4" column="42" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="220" selection-end="220" vertical-scroll-proportion="0.25888324">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repo/UserJDBCTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="193" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+        <state line="25" column="57" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.4.RELEASE/spring-jdbc-3.0.4.RELEASE-sources.jar!/org/springframework/jdbc/core/namedparam/NamedParameterJdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="11" selection-start="3442" selection-end="3442" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="43" selection-start="967" selection-end="967" vertical-scroll-proportion="0.4247039">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="32" selection-start="535" selection-end="535" vertical-scroll-proportion="0.31641287">
+          <folding />
         </state>
       </provider>
     </entry>
