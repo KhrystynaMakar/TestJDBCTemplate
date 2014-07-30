@@ -8,16 +8,29 @@
     <name>MyJDBCTemplate</name>
 
     <properties>
-        <spring.version>3.2.0.RELEASE</spring.version>
         <jackson>1.4.1</jackson>
+        <jsp-api>2.1</jsp-api>
+        <junit>4.8.2</junit>
         <log4j>1.2.17</log4j>
+        <mysql-connector-java>5.1.30</mysql-connector-java>
+        <servlet-api>2.5</servlet-api>
+        <spring-core>4.0.6.RELEASE</spring-core>
+        <spring-jdbc>3.0.4.RELEASE</spring-jdbc>
+        <spring-tx>4.0.6.RELEASE</spring-tx>
+        <spring.version>4.0.6.RELEASE</spring.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring-tx}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
+            <version>${spring-core}</version>
         </dependency>
 
         <dependency>
@@ -29,13 +42,13 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
+            <version>${servlet-api}</version>
         </dependency>
 
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>jsp-api</artifactId>
-            <version>2.1</version>
+            <version>${jsp-api}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -55,20 +68,26 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.8.2</version>
+            <version>${junit}</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>3.0.4.RELEASE</version>
+            <version>${spring-jdbc}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.version}</version>
         </dependency>
 
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
+            <version>${mysql-connector-java}</version>
         </dependency>
 
         <dependency>

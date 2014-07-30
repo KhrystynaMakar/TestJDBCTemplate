@@ -20,19 +20,20 @@ public class UserJDBCTemplate implements UserDAO {
     private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
     @Override
-    public void setDataSource(DataSource dataSource) {
-        this.dataSource = dataSource;
+    public void setDataSource(DataSource ds) {
+        this.dataSource = ds;
         this.jdbcTemplateObject = new JdbcTemplate(dataSource);
         this.namedParameterJdbcTemplate = new NamedParameterJdbcTemplate(dataSource);
     }
 
     @Override
-    public void create(String name) {
+    public int create(String name) {
 //        jdbcTemplateObject.update(userRB.getString("create"), name);
-        Map namedParameters = new HashMap();
-        namedParameters.put("name", name);
-        namedParameterJdbcTemplate.update(userRB.getString("create"), namedParameters);
-        System.out.println("Created Record Name = " + name);
+            Map namedParameters = new HashMap();
+            namedParameters.put("name", name);
+           // namedParameterJdbcTemplate.update(userRB.getString("create"), namedParameters);
+            System.out.println("Created Record Name = " + name);
+        return namedParameterJdbcTemplate.update(userRB.getString("create"), namedParameters);
     }
 
     @Override
